@@ -70,7 +70,7 @@ function App() {
             <Text as="span">
               Click the link below to access the <i>Ransomware Defender</i> portal. In today's digital economy, your files are becoming ever more important. Hackers know this and they are working around the clock trying to get their hands on your files. By creating a <i>Ransomware Defender</i> online account, you can easily and seamlessly start protecting your files.
               <p>
-              To create your <b>Owner</b> account, click the link below, select "Create Account", and come up with a username and password. Then, click <b>Owner</b>.
+              To create your <b>Owner</b> account, click the link below, select <i>Create Account</i>, and come up with a username and password. Then, click <b>Owner</b> to create your account.
               </p>
             </Text>
             <Button variation="link"><a href="https://main.d3j2r0ip7v3umd.amplifyapp.com/" target="_blank">Click here to access the <i>Ransomware Defender portal</i></a></Button>
@@ -102,7 +102,7 @@ function App() {
             </Heading>
 
             <Text as="span">
-              Once you login with the username and password you just created. You will find your <b>Organization ID</b> towards the right-side of your screen. It is highlighted in green. Your Organization ID is automatically generated for you, and it is unique to your organization. Share the Organization ID with your employees as they will need it when they create their accounts.
+              Once you login with your newly created username and password, you will find your <b>Organization ID</b> towards the right-side of your screen. It is highlighted in green. Your Organization ID is automatically generated for you, and it is unique to your organization. Share the <b>Organization ID</b> with anyone in your organization that needs to create an account and back up files with the <i>Ransomware Defender</i>.
             </Text>
           </Flex>
         </Flex>
@@ -135,7 +135,7 @@ function App() {
             </Heading>
 
             <Text as="span">
-              To create an Administrator or User account, click the link below and come up with a username and password. Paste the <b>Organization ID</b> into the bottom input box. 
+              To create an <b>Administrator</b> or <b>User</b> account, click the link below and come up with a username and password. Paste the <b>Organization ID</b> into the bottom input box. Then, click <b>Administrator</b> to create an <b>Administrator</b> account. Click <b>User</b> to create a <b>User</b> account.
             </Text>
             <Button variation="link"><a href="https://main.d3j2r0ip7v3umd.amplifyapp.com/" target="_blank">Click here to access the <i>Ransomware Defender portal</i></a></Button>
           </Flex>
@@ -172,13 +172,14 @@ function App() {
             </Heading>
 
             <Text as="span">
-              Click the link below to download the <i>Ransomware Defender</i> Python file. Your computer must be able to run Python. Copy and paste your desired directory onto Line 177. Then, add it to your computer's tasks on startup. For example, on Apple computers, open <i>Automator</i>, select <u>Get Specified Finder Items</u>, <u>Open Finder Items</u> with your choice of code editor, and select the downloaded file. To make sure the <i>Ransomware Defender</i> is running, just make sure you run the script.
+              Click the link below to download the <i>Ransomware Defender</i> Python file. Your computer must be able to run Python. Copy and paste your desired directory onto Line 177. Then, add it to your computer's tasks on startup. For example, on Apple computers, open <i>Automator</i>, select <u>Get Specified Finder Items</u>, select the <i>ransomwaredefender.py</i> file, and <u>Open Finder Items</u> with your choice of code editor. To make sure the <i>Ransomware Defender</i> runs on startup, save and add the newly created <i>Automator</i> file to <u>Users & Groups/Login items</u>. Remember to click run, so that the <i>Ransomware Defender</i> backs up your files.
             </Text>
             <Button variation="link"><a href="/ransomwaredefender.py" target="_blank">Click here to download the <i>Ransomware Defender</i> file</a></Button>
 
             <p>
-              For added saftey, run "shasum -a 256 ransomwaredefender.py" to verify that you downloaded the original file.
-              SHA256: <b>de906d5c823184b7f1fd1e7c22751e018ac256732275ba06d1cdf73acad69b17</b>
+              On Linux-based systems, you can run <code>[shasum -a 256 ransomwaredefender.py]</code> to verify that you downloaded the original file. On Windows systems, run <code>[Get-fileHash ransomwaredefender.py]</code>.
+          
+              The SHA256 checksum should be identical to the following: <code>de906d5c823184b7f1fd1e7c22751e018ac256732275ba06d1cdf73acad69b17</code>
             </p>
           </Flex>
         </Flex>
