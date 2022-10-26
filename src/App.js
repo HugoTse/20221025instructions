@@ -98,7 +98,7 @@ function App() {
             </Flex>
 
             <Heading level={5}>
-              Step 2) Copy your Organization ID and give it to your employees.
+              Step 2) Copy and share your Organization ID.
             </Heading>
 
             <Text as="span">
@@ -174,7 +174,7 @@ function App() {
             <Text as="span">
               Click the link below to download the <i>Ransomware Defender</i> Python file. Your computer must be able to run Python. Copy and paste your desired directory onto Line 177. Then, add it to your computer's tasks on startup. For example, on Apple computers, open <i>Automator</i>, select <u>Get Specified Finder Items</u>, select the <i>ransomwaredefender.py</i> file, and <u>Open Finder Items</u> with your choice of code editor. To make sure the <i>Ransomware Defender</i> runs on startup, save and add the newly created <i>Automator</i> file to <u>Users & Groups/Login items</u>. Remember to click run, so that the <i>Ransomware Defender</i> backs up your files.
             </Text>
-            <Button variation="link"><a href="/ransomwaredefender.py" target="_blank">Click here to download the <i>Ransomware Defender</i> file</a></Button>
+            <Button variation="link"><a href="/ransomwaredefender.py" target="_blank">Click here to download the <i>Ransomware Defender</i> Python file</a></Button>
 
             <p>
               On Linux-based systems, you can run <code>[shasum -a 256 ransomwaredefender.py]</code> to verify that you downloaded the original file. On Windows systems, run <code>[Get-fileHash ransomwaredefender.py]</code>.
