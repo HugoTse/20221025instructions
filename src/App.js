@@ -172,7 +172,7 @@ function App() {
             </Heading>
 
             <Text as="span">
-              Click the link below to download the <i>Ransomware Defender</i> Python file. Your computer must be able to run Python. Copy and paste your desired directory onto Line 177. Then, add it to your computer's tasks on startup. For example, on Apple computers, open <i>Automator</i>, select <u>Get Specified Finder Items</u>, select the <i>ransomwaredefender.py</i> file, and <u>Open Finder Items</u> with your choice of code editor. To make sure the <i>Ransomware Defender</i> runs on startup, save and add the newly created <i>Automator</i> file to <u>Users & Groups/Login items</u>. Remember to click run, so that the <i>Ransomware Defender</i> backs up your files.
+              Click the link below to download the <i>Ransomware Defender</i> Python file. Your computer must be able to run Python. Copy and paste your <b>Username</b> onto <code>Line 43</code>, your <b>Organization ID</b> onto <code>Line 43</code>, and <b>Desired Directory</b> onto <code>Line 130</code>. Then, add it to your computer's tasks on startup. For example, on Apple computers, open <i>Automator</i>, select <u>Get Specified Finder Items</u>, select the <i>ransomwaredefender.py</i> file, and <u>Open Finder Items</u> with your choice of code editor. To make sure the <i>Ransomware Defender</i> runs on startup, save and add the newly created <i>Automator</i> file to <u>Users & Groups/Login items</u>. Remember to click run, so that the <i>Ransomware Defender</i> backs up your files.
             </Text>
             <Button variation="link"><a href="/ransomwaredefender.py" target="_blank">Click here to download the <i>Ransomware Defender</i> Python file</a></Button>
 
