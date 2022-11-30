@@ -137,7 +137,7 @@ function App() {
             <Text as="span">
               To create an <b>Owner</b> or <b>User</b> account, click the link below and come up with a username and password. Paste the <b>Organization ID</b> into the bottom input box. Then, click <b>Owner</b> to create an <b>Owner</b> account. Click <b>User</b> to create a <b>User</b> account.
             </Text>
-            <Button variation="link"><a href="https://main.d3j2r0ip7v3umd.amplifyapp.com/" target="_blank">Click here to access the <i>Ransomware Defender portal</i></a></Button>
+            <Button variation="link"><a href="https://main.ds2mnperqmuig.amplifyapp.com/" target="_blank">Click here to access the <i>Ransomware Defender portal</i></a></Button>
           </Flex>
         </Flex>
       </Card>
