@@ -186,6 +186,44 @@ function App() {
       </Card>
     </View>
 
+    <View>
+      <Card variation="outlined">
+        <Flex direction="row" alignItems="flex-start">
+          <Image
+            src="/step5.png"
+            width="33%"
+            variation="outlined"
+          />
+          <Flex
+            direction="column"
+            alignItems="flex-start"
+          >
+            <Flex>
+              <Badge size="small" variation="info">
+                Owner
+              </Badge>
+              <Badge size="small" variation="success">
+                Administrator
+              </Badge>
+              <Badge size="small" variation="warning">
+                User
+              </Badge>
+            </Flex>
+
+            <Heading level={5}>
+              Step 5) Automatically delete older versions of files
+            </Heading>
+
+            <Text as="span">
+              Click the link below to download the <i>Ransomware Defender Cleanup</i> Python file. Your computer must be able to run Python. Copy and paste your <b>File Directory</b> onto <code>Line 60</code>. Run the <i>Ransomware Defender Cleanup</i> and click <i>REMOVE OLD FILES</i>. 
+            </Text>
+            <Button variation="link"><a href="/ransomwaredefender.py" target="_blank">Click here to download the <i>Ransomware Defender Cleanup</i> Python file</a></Button>
+
+          </Flex>
+        </Flex>
+      </Card>
+    </View>
+
     <br/>
     <br/>
 
